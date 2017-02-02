@@ -15,7 +15,7 @@ Texto: font-family: 'Lato', sans-serif;
 
 Tamaño de Texto: 16px
 
-Amarillo: #FFB61E
+Rojo: #D81A1A
 Negro: #1B1B1B
 Blanco: #FFFFFF
 
@@ -83,7 +83,7 @@ a:hover {
     
     text-align: center;
     
-    background-color: #ffb61e;
+    background-color: #D81A1A;
     
     animation-duration: .5s;
     
@@ -159,7 +159,7 @@ a:hover {
 }
 
 #hero-impact span {
-    color: #FFB61E;
+    color: #D81A1A;
 }
 
 @media only screen and (max-width: 600px) {
@@ -172,7 +172,7 @@ a:hover {
 }
 
 .hero-divider {
-    background-color: #FFB61e;
+    background-color: #D81A1A;
     
     width: 80px;
     height: 4px;
@@ -188,14 +188,14 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 105%;
     
-    color: #FFB61E;
+    color: #D81A1A;
 }
 
 .hero-cta {
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
     
-    background-color: #ffb61e ;
+    background-color: #D81A1A ;
     color: #fff;
     
     padding: 20px;
@@ -206,7 +206,7 @@ a:hover {
 }
 
 .hero-cta:hover {
-    color: #ffb61e;
+    color: #D81A1A;
     
     text-decoration: none !important;
 }
@@ -219,7 +219,7 @@ a:hover {
 }
 
 .section-title span{
-    color: #ffb61e;
+    color: #D81A1A;
 }
 
 .section-lead {
@@ -229,7 +229,7 @@ a:hover {
 }
 
 .divider {
-    background-color: #FFB61E;
+    background-color: #D81A1A;
     
     width: 40px;
     height: 4px;
@@ -257,7 +257,7 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
     
-    background-color: #ffb61e;
+    background-color: #D81A1A;
     color: #fff;
     
     padding: 20px;
@@ -310,7 +310,7 @@ a:hover {
 .step-icon {
     font-size: 40px;
     
-    color: #ffb61e;
+    color: #D81A1A;
 }
 .step-title {
     font-family: 'Montserrat', sans-serif;
@@ -324,11 +324,8 @@ a:hover {
 
 /* Proyectos */
 
-/* Estilos para portfolio.html */
-@import url('portfolio.css');
-
 #proyectos {
-    background-color: #ffb61e;
+    background-color: #D81A1A;
     background-image: url(../img/bg.png);
     background-repeat: repeat;
     
@@ -430,7 +427,7 @@ a:hover {
 }
 
 .miembro:hover {
-    background-color: #ffb61e;
+    background-color: #D81A1A;
     background-image: url(../img/bg.png);
     background-repeat: repeat;
     
@@ -452,7 +449,7 @@ a:hover {
 
 @media only screen and (max-width: 1100px) {
     .miembro {
-    background-color: #ffb61e;
+    background-color: #D81A1A;
     color: #fff;
         
     text-align: center;
@@ -487,8 +484,6 @@ a:hover {
     display: block;
     opacity: .9;
 }
-/* Estilos para about.html */
-@import url('about.css');
 
 
 /* Contacto */
@@ -517,7 +512,7 @@ a:hover {
 .contactform input:active , .contactform textarea:active, .contactform input:focus, .contactform textarea:focus {
     outline: none;
     margin-top: -7px;
-    border: 3px solid #ffb61e;
+    border: 3px solid #D81A1A;
     border-radius: 10px;
     transform: scale(1.05);
     -webkit-transform: scale(1.05);
@@ -538,7 +533,7 @@ a:hover {
 
 .trademark strong {
     font-weight: 700;
-    color: #ffb61e;
+    color: #D81A1A;
 }
 
 .social-links {
@@ -552,5 +547,5 @@ a:hover {
 }
 
 .social-icon a:hover{
-    color: #ffb61e !important;
+    color: #D81A1A !important;
 }

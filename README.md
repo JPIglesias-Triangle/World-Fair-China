@@ -1,22 +1,14 @@
-# Triangle 3.0
-v3.0 of Triangle's Site (<a href="https://triangle.mx">triangle.mx</a>).
+# World Fair 2017 - China
+
+## Team
+- José Pablo Iglesias (Programmer)
+- Imanol Blix (Co-Programmer)
+- Sebastián Silva Herzog (Desginer)
+- Máximo Sánchez (Researcher)
+- David Suárez (English Captain)
 
 ## Installation and Usage
 Just download the repo as a <code>.zip</code> file, open it, and you will get a folder with all the files
-#### Google Analytics
-If you want to add Google Analytics Tracking (or any other form of tracking), <strong>Make sure to erase our tracking codes</strong> located at the footers of <code>index.html</code> file, so your tracking can be reliable.
-#### Favicon and Tiles
-Your downloaded version of the repository will include this files:<br><br> <code>favicon.ico</code> This is the Favicon.<br> <code>tile.png</code> and <code>tile-wide.png</code>, which used in some browsers.<br>
-<code>apple-touch-icon.png</code>, which is used in Safari for macOS and iOS.<br><br>
-If you don't want to have this files, erase them as well as the <code>browserconfig.xml</code> file, and the respective <code>link</code> tags located in the <code>index.html</code> file.
-
-#### Instant Content Manager
-To manage our texts (and some of our photos) on the published website, we installed the Instant Content Manager Code. You can check the docs at <a href="https://instant.cm">instant.cm</a>.
-## Credits
-José Pablo Iglesias - Code and Design<br>
-Imanol Blix - Design<br>
-Máximo Sánchez - Design<br>
-David Suárez - Texts<br>
 
 ## License
 This Repo is under a <strong>Creative Commons Attribution-ShareAlike 4.0 International Public License</strong> which means: <ul>
