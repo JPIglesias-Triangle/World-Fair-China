@@ -308,7 +308,7 @@ a:hover {
 }
 
 .step-icon {
-    font-size: 40px;
+    font-size: 40px !important;
     
     color: #D81A1A;
 }
