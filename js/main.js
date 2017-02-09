@@ -1,5 +1,5 @@
 // Init Tooltips
-$('[data-toggle="tooltip"]').tooltip(); 
+$('[data-toggle="tooltip"]').tooltip();
 
 // Smooth Scrolling
 $(function() {
