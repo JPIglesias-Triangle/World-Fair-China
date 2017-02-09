@@ -2,279 +2,72 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="es"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="es"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        
         <title>China</title>
-        
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- Estilos -->
+
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/main.css">
         
-        <!-- Iconos -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <!-- Modernizr -->
+        <!-- Font Awesome Icons -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        
-        <!-- WOW.js -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-        <script>
-              new WOW().init();
-        </script>
-        
     </head>
-    <body onload="setTimeout(closeNotificationBar, 20000);">
+    <body>
         <!--[if lt IE 8]>
-            <p class="browserupgrade">Estas usando una versión muy <strong>anticuada</strong> de tu navegador. Por favor <a href="http://browsehappy.com/">actualiza tu navegador</a> para tener una mejor experiencia en la red.</p>
+            <p class="browserupgrade">Estas usando un navegador algo anticuado, porfavor actualizalo.</p>
         <![endif]-->
-    
-    <!-- Notification Bar -->
-    <div class="wow fadeIn" data-wow-duration=".5s" data-wow-delay="1.5s">
-        <div id="notification-bar" class="animated"><p>Happy Goat (1967) Year!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i onclick="closeNotificationBar()" id="close-btn" class="fa fa-close"></i></p></div>
-    </div>
-    
-    <!-- Hero -->
-    <div class="hero">
-      <div class="container wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s" >
-        <div class="row rellax" data-rellax-speed="-2">
-            <div class="col-md-4">
-                <img class="hero-img wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s" src="flag.svg">
-            </div>
-            <div class="col-md-8 hero-textbox wow fadeInRigth" data-wow-duration="1.5s" data-wow-delay="1.5s">
-                <h1 id="hero-impact">We <span>represent</span><br>The Republic of<span>China</span></h1>
-                <!--<h1 id="hero-impact">Sitios  <span>Modernos</span>,<br>para tiempos <span>modernos</span>.</h1>-->
-                <!--<div class="hero-divider"></div>-->
-                <p class="hero-intro">We are a <strong>Powerful</strong>, Asian Nation.<br>We are made of a <strong>Great History</strong> and lots of <strong>Great People</strong>.</p>
-                <a class="hero-cta bounce-btn" href="#proceso" role="button">Let's gain knowledge! <i class="fa fa-rocket"></i></a>
-            </div>
+        
+        
             
-        </div>
-      </div>
-    </div>
-    <!--/. Hero -->
-    
-    <!-- Proceso -->
-    <div id="proceso">
-        <div class="container">
-            <h1 class="section-title">Quick <span>Facts</span> </h1>
-            <div class="divider-title"></div>
-            <p class="section-lead">The Republic of China is a country full of curiosities, ready to be discovered by you.</p>
+        <div id="hero">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="step row">
-                        <div class="col-xs-4">
-                            <i class="step-icon fa fa-users"></i>
-                        </div>
-                        <div class="col-xs-8">
-                            <span class="step-title">1. Culture</span>
-                            <div class="divider"></div>
-                            <p class="step-text">Chinese people used to think that calligraphy, poetry and painting were superior
-
-art traditions than dancing or theatre.</p>
-                        </div>
-                    </div>
-                    <div class="step row">
-                        <div class="col-xs-4">
-                            <i class="step-icon fa fa-child"></i>
-                        </div>
-                        <div class="col-xs-8">
-                            <span class="step-title">2. Demographics</span>
-                            <div class="divider"></div>
-                            <p class="step-text">In 1967 Mao Zedong fomented demographic grow and population duplicated it’s
-
-number to more than 900,000,000 people.</p>
-                        </div>
-                    </div>
-                    <div class="step row">
-                        <div class="col-xs-4">
-                            <i class="step-icon fa fa-book"></i>
-                        </div>
-                        <div class="col-xs-8">
-                            <span class="step-title">3. Goverment</span>
-                            <div class="divider"></div>
-                            <p class="step-text">The People’s Republic of China constitution was approved the 4 th of
-
-December of 1982.</p>
-                        </div>
-                    </div>
+                    <img class="hero-flag" src="img/flag.svg">
+                    <h1>The People's <br> Republic of <span>China</span></h1>
+                    <div class="divider"></div>
+                    <p class="hero-lead">We are a strong, powerful country located in Eastern Asia.</p>
+                    <a class="cta-button" href="#history">Learn More!</a>
                 </div>
-                <div class="col-md-6">
-                    <div class="step row">
-                        <div class="col-xs-4">
-                            <i class="step-icon fa fa-globe"></i>
-                        </div>
-                        <div class="col-xs-8">
-                            <span class="step-title">4. Geography</span>
-                            <div class="divider"></div>
-                            <p class="step-text">China is the second largest country in the world.</p>
-                        </div>
-                    </div>
-                    <div class="step row">
-                        <div class="col-xs-4">
-                            <i class="step-icon fa fa-cubes"></i>
-                        </div>
-                        <div class="col-xs-8">
-                            <span class="step-title">5. Size</span>
-                            <div class="divider"></div>
-                            <p class="step-text">China has a size around 9,600,000km.</p>
-                        </div>
-                    </div>
-                    <div class="step row">
-                        <div class="col-xs-4">
-                            <i class="step-icon fa fa-futbol-o"></i>
-                        </div>
-                        <div class="col-xs-8">
-                            <span class="step-title">6. Sports</span>
-                            <div class="divider"></div>
-                            <p class="step-text">There’s evidence that during the Han dynasty, the Chinese played
-
-some type of football called “Cuju”.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--<div class="button-group">
-                    <a class="section-cta black-btn" href="#proyectos" role="button">Descubre Más<i class="carbon-search"></i></a>
-                </div>-->
             </div>
         </div>
-    </div>
-    <!--./ Proceso -->
-    
-    <!-- Proyectos -->
-    <div id="proyectos">
-        <div class="container rellax" data-rellax-speed="-1">
-            <h1 class="section-title">Our Greatest <span>Achievments</span> </h1>
-            <div class="divider-title"></div>
-            <p class="section-lead">Our country has created and developed new technologies for several hundred years.</p>
-            <div class="proyectos-flexbox">
-                <div class="proyecto">
-                    <img  class="proyecto-img" src="GreatWall.jpg">
-                </div>
         
-            </div>
-            <!--<div class="button-group">
-                    <a class="section-cta white-btn" href="#proyectos" role="button">Ver Proyectos<i class="carbon-television"></i></a>
-            </div>-->
-        </div>
-    </div>
-    <!--./ Proyectos -->
-    
-    <!-- Packs 
-    <div id="packs">
         <div class="container">
-            <div class="button-group">
-                    <a class="section-cta black-btn" href="contacto.html" role="button">Contactar<i class="carbon-mail"></i></a>
-            </div>
-        </div>
-    </div>
-    ./ Packs -->
-    
-    <!-- About -->
-    <div id="about">
-        <div class="container">
-            <h1 class="section-title">Important <span>Peope</span> </h1>
-            <div class="divider-title"></div>
-            <p class="section-lead">Our Nation has been guided by hundreds of different leaders, these are the most important ones.</p>
-            <div class="equipo-flexbox">
-                <div class="miembro">
-                    <img class="miembro-foto" src="img/Equipo/JPIglesias.png">
-                    <span class="miembro-name">José Pablo Iglesias</span>
-                    <span class="miembro-puesto">Director General</span>
-                </div>
-                <div class="miembro">
-                    <img class="miembro-foto" src="img/Equipo/Blix.png">
-                    <span class="miembro-name">Imanol Blix</span>
-                    <span class="miembro-puesto">Director de Operaciones</span>
-                </div>
-                <div class="miembro">
-                    <img class="miembro-foto" src="img/Equipo/Suarez.png">
-                    <span class="miembro-name">David Suárez</span>
-                    <span class="miembro-puesto">Director de Ventas</span>
-                </div>
-            </div>
-            <!--<div class="button-group">
-                    <a class="section-cta black-btn" href="#proyectos" role="button">Descubre Más<i class="carbon-search"></i></a>
-            </div>-->
-        </div>
-    </div>
-    <!-- ./ About -->
-   
-      
-    <!-- Contacto -->
-    <div id="contacto">
-        <div class="container">
-            <h1 class="section-title"> <span>Thanks</span> </h1>
-            <div class="divider-title"></div>
-            <p class="section-lead">Thanks for visiting our space in the web, and our stand in the 2017 Cedros World Fair. What did you think about our website? And our presentation?</p>
-            
-            <form class="contactform" method="POST" action="http://formspree.io/jpablo_iglesias@cedros.edu.mx">
-                      <p class="placeholder">Your Name</p>
-                      <input type="text" name="name"><br>
-                      <input type="text" name="_gotcha" style="display:none" />
-                      <p class="placeholder">Your Message:</p>
-                      <textarea name="message"  rows="4"></textarea><br>
-                      <button class="hero-cta bounce-btn" style="cursor: pointer; border: none;" type="submit" role="button">Send <i class="carbon-plane"></i></button>
-            </form>
-        </div>
-    </div>
-    <!--./ Contacto -->   
-        
-    <!-- Footer -->
-        <div id="footer">
-            <div class="container">
+            <div id="history">
                 <div class="row">
                     <div class="col-md-4">
-                        <span class="trademark">We are <strong>China</strong></span>
+                        <h1 class="section-title">History<span>(历史)</span></h1>
+                        <div class="divider"></div>
+                        <div class="section-lead">This section will talk about our nation's history, from the first dinasties until the constitution of our Communist Republic. <a class="section-skip" href="#geography">Skip <i class="fa fa-arrow-right"></i></a></div>
                     </div>
-                    <!--<div class="col-md-4">
-                        <ul class="list-inline social-links">
-                            <li class="social-icon"><a href="https://www.facebook.com/trianglewebmexico" target="_blank"><i class="carbon-facebook"></i></a></li>
-                            <li class="social-icon"><a href="https://www.instagram.com/trianglewebsmex/" target="_blank"><i class="carbon-instagram"></i></a></li>
-                            <li class="social-icon"><a href="https://twitter.com/triangle_webs" target="_blank"><i class="carbon-twitter"></i></a></li>
-                        </ul>
-                    </div>-->
-                    <div class="col-md-4">
-                        
+                    <div class="col-md-8">
+                        <p class="section-content">
+                        Chinese history is one of the most difficult World History branches, because of our nation's size.
+                        <br><br>
+                        China was first governed by the <strong>Xia Dynasty</strong> even though there is no definitive proof of their existance. The first dynasty that we have actual proof of its existence its the <strong>Shang Dynasty</strong>, which ruled China until they were overthrown by the <strong>Zhou</strong>.
+                        <br><br>
+                        The <strong>Zhou Dynasty</strong> ruled China while their power slowly started to fade. The Zhou goverment finally broke down into seven states, which are know as the <strong>Warring States</strong>. Years of wars followed this events until one of the states defeated the other six.
+                        <br><br>
+                        This state was the one governed by the <strong>Qin Dynasty</strong>. Its ruler, <strong>Shi Huang Di</strong>, proclaimed himself Emperor of China, giving birth to the <strong>Chinese Empire</strong>. 
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    <!-- ./ Footer -->    
-         
+        
         <!-- Scripts -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-74662952-2', 'auto');
-            ga('send', 'pageview');
-        </script>
-        
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script type="text/javascript">
-            window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
-        </script>
-        
-        <script src="https://instantcm.com/js/v2/latest/txt-min.js"></script>
-        <script type="text/javascript">
-            Txt.render({id: "a6025fb0-5b46-4440-a9ca-71f88d2739f6"})
-        </script> 
-         
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
         <script src="js/vendor/bootstrap.min.js"></script>
-        
+
         <script src="js/main.js"></script>
-        
-        <script src="js/vendor/rellax.js"></script>
-	    <script>
-		  var rellax = new Rellax('.rellax');
-	    </script>
-	    <!-- ./ Scripts -->
-	    
+
     </body>
 </html>
