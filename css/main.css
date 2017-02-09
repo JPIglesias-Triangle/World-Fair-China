@@ -158,7 +158,23 @@ a:hover {
     margin-bottom: 20px;
 }
 
+/* Retro */
 
+#retro {
+   padding: 30px 0;
+   margin-bottom: 20px; 
+}
+
+/* Geography */
+
+#geography {
+   padding: 30px 0;
+   margin-bottom: 20px; 
+}
+
+#geography .section-title {
+    font-size: 340%;
+}
 
 
 
