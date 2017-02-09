@@ -16,6 +16,22 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Abril Fatface', 'Anton', 'DIN Condenesed', sans-serif;
 }
 
+a {
+    color: #de2910;
+    
+    text-decoration: none;
+    
+    transition: .2s;
+}
+
+a:hover {
+    color: #bb2910;
+    
+    cursor: pointer;
+    
+    text-decoration: underline;
+}
+
 /* Buttons */
 .cta-button {
     display: inline-block;
@@ -70,6 +86,13 @@ h1, h2, h3, h4, h5, h6 {
 .section-content {
     font-size: 110%;
     text-align: justify;
+}
+
+.section-img {
+    width: 100%;
+    
+    border-radius: 10px;
+    
 }
 
 /* Hero */
@@ -128,8 +151,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
+/* Government */
 
-
+#government {
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
 
 
 
