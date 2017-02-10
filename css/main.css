@@ -109,8 +109,8 @@ ul {
     width: 100%;
     min-height: 650px;
     
-    /*background-image: url('');
-    background-size: cover;*/
+    background-image: url('..//img/hero-bg.png');
+    background-size: cover;
     background-color: rgba(0,0,0,.3);
     background-blend-mode: color;
     
